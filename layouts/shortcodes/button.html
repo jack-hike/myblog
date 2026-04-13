@@ -1,0 +1,6 @@
+<!-- Button Shortcode -->
+{{ $text := .Get "text" | default "Click" }}
+{{ $link := .Get "link" | default "#" }}
+{{ $class := .Get "class" | default "btn btn-primary" }}
+
+<a href="{{ $link }}" class="{{ $class }}">{{ $text }}</a>

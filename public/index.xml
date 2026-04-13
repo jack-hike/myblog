@@ -1,19 +1,397 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test Nadapay on My New Hugo Project</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Test Nadapay on My New Hugo Project</description>
+    <title>Test Nadapay on </title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Test Nadapay on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>//localhost:1313/posts/first-post/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>//localhost:1313/posts/first-post/</guid>
       <description>&lt;h1 id=&#34;hello-world-&#34;&gt;Hello World! 👋&lt;/h1&gt;&#xA;&lt;p&gt;This is my first HUGO post!&lt;/p&gt;&#xA;&lt;p&gt;Welcome to Test Nadapay Blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your company might be in need of a social media audit.</title>
+      <link>//localhost:1313/english/blog/post-1/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-1/</guid>
+      <description>&lt;h3 id=&#34;simple-yet-powerful-ui-kit-template&#34;&gt;Simple Yet Powerful UI Kit Template&lt;/h3&gt;&#xA;&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your company might be in need of a social media audit.</title>
+      <link>//localhost:1313/french/blog/post-1/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-1/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASP.NET Software Developer</title>
+      <link>//localhost:1313/english/career/asp-net-software-developer/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/asp-net-software-developer/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASP.NET Software Developer</title>
+      <link>//localhost:1313/french/career/asp-net-software-developer/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/asp-net-software-developer/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Marketing / Paid Media Manager</title>
+      <link>//localhost:1313/english/career/digital-marketing-paid-media-manager/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/digital-marketing-paid-media-manager/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Marketing / Paid Media Manager</title>
+      <link>//localhost:1313/french/career/digital-marketing-paid-media-manager/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/digital-marketing-paid-media-manager/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How CyberT used simple email marketing campaigns</title>
+      <link>//localhost:1313/english/blog/post-2/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-2/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor&lt;/li&gt;&#xA;&lt;li&gt;integer non rhoncus elementum vel. Quis nec viverra&lt;/li&gt;&#xA;&lt;li&gt;egestas leo vitae in morbi. Enim arcu dignissim mauris&lt;/li&gt;&#xA;&lt;li&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How CyberT used simple email marketing campaigns</title>
+      <link>//localhost:1313/french/blog/post-2/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-2/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>All you need to know about subscriber analysis.</title>
+      <link>//localhost:1313/english/blog/post-3/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-3/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>All you need to know about subscriber analysis.</title>
+      <link>//localhost:1313/french/blog/post-3/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-3/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Executive/ Sr. Executive - Service Assurance</title>
+      <link>//localhost:1313/english/career/executive-sr-executive-service-assurance/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/executive-sr-executive-service-assurance/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Executive/ Sr. Executive - Service Assurance</title>
+      <link>//localhost:1313/french/career/executive-sr-executive-service-assurance/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/executive-sr-executive-service-assurance/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>People Program Management Leader</title>
+      <link>//localhost:1313/english/career/people-program-management-leader/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/people-program-management-leader/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>People Program Management Leader</title>
+      <link>//localhost:1313/french/career/people-program-management-leader/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/people-program-management-leader/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why your business needs custom reports</title>
+      <link>//localhost:1313/english/blog/post-4/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-4/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why your business needs custom reports</title>
+      <link>//localhost:1313/french/blog/post-4/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-4/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to add analytics to your Android or iOS app</title>
+      <link>//localhost:1313/english/blog/post-5/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-5/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to add analytics to your Android or iOS app</title>
+      <link>//localhost:1313/french/blog/post-5/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-5/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmer/ Web Developer</title>
+      <link>//localhost:1313/english/career/programmer-web-developer/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/programmer-web-developer/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmer/ Web Developer</title>
+      <link>//localhost:1313/french/career/programmer-web-developer/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/programmer-web-developer/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Senior Compensation Programs Manager</title>
+      <link>//localhost:1313/english/career/senior-compensation-programs-manager/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/senior-compensation-programs-manager/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Senior Compensation Programs Manager</title>
+      <link>//localhost:1313/french/career/senior-compensation-programs-manager/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/senior-compensation-programs-manager/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to optimize page performance using heatmaps</title>
+      <link>//localhost:1313/english/blog/post-6/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-6/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to optimize page performance using heatmaps</title>
+      <link>//localhost:1313/french/blog/post-6/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-6/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Takeaways From 5 Years of Startup Experience</title>
+      <link>//localhost:1313/english/blog/post-7/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-7/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Takeaways From 5 Years of Startup Experience</title>
+      <link>//localhost:1313/french/blog/post-7/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-7/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology Integration Support</title>
+      <link>//localhost:1313/english/career/technology-integration-support/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/career/technology-integration-support/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology Integration Support</title>
+      <link>//localhost:1313/french/career/technology-integration-support/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/career/technology-integration-support/</guid>
+      <description>&lt;h4 id=&#34;what-is-the-role&#34;&gt;What Is the role?&lt;/h4&gt;&#xA;&lt;p&gt;We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts. You will be a fiduciary who works with clients providing holistic advice on areas including: saving, retirement, debt management, investments. You’ll be on the front lines helping clients in what is arguably the most important position at the company.&lt;/p&gt;&#xA;&lt;h4 id=&#34;why-join-deltas-people-team&#34;&gt;Why join Delta’s People team?&lt;/h4&gt;&#xA;&lt;p&gt;We are especially interested in finding developers with experience either building web APIs with Go or experience with functional programming (e.g. Elixir, NodeJS, Clojure, F#). You might not have experience with all the technologies in our stack, but you are motivated to learn deeply. You will get the opportunity to work with both Go and Elixir with experienced team mates who can teach and pair with you to learn whatever you have less experience with.You care about security, code quality, scalability, performance, and simplicity. Above all, you seek operational excellence and apply the best engineering practices possible. Not everything that you or your team do can be perfect, but you make sure that you always know the trade-offs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What to consider before starting a business – Inside The Studio</title>
+      <link>//localhost:1313/english/blog/post-8/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/blog/post-8/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What to consider before starting a business – Inside The Studio</title>
+      <link>//localhost:1313/french/blog/post-8/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/blog/post-8/</guid>
+      <description>&lt;p&gt;Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>À propos de</title>
+      <link>//localhost:1313/french/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/pages/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>//localhost:1313/english/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avoir une question?</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>//localhost:1313/english/pages/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/changelog/</guid>
+      <description>&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Process&lt;/a&gt; transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;p&gt;Send emails and updates about Conclude. Perform any other function that we believe.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our &lt;a href=&#34;#&#34;&gt;site&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about &lt;a href=&#34;#&#34;&gt;conclude&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>contact</title>
+      <link>//localhost:1313/english/pages/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>contact</title>
+      <link>//localhost:1313/french/pages/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/pages/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forfaits et tarifs</title>
+      <link>//localhost:1313/french/pages/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/pages/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Have a question?</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jenn Hiller</title>
+      <link>//localhost:1313/english/author/jenn-hiller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/author/jenn-hiller/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita. Caut repudiandae a assumenda tempora!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jenn Hiller</title>
+      <link>//localhost:1313/french/author/jenn-hiller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/author/jenn-hiller/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita. Caut repudiandae a assumenda tempora!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>John Carter</title>
+      <link>//localhost:1313/english/author/john-carter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/author/john-carter/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>John Carter</title>
+      <link>//localhost:1313/french/author/john-carter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/author/john-carter/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Journal des modifications</title>
+      <link>//localhost:1313/french/pages/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/pages/changelog/</guid>
+      <description>&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Process&lt;/a&gt; transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;p&gt;Send emails and updates about Conclude. Perform any other function that we believe.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our &lt;a href=&#34;#&#34;&gt;site&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about &lt;a href=&#34;#&#34;&gt;conclude&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Mark Breslin</title>
+      <link>//localhost:1313/english/author/mark-breslin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/author/mark-breslin/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita. Caut repudiandae a assumenda tempora!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mark Breslin</title>
+      <link>//localhost:1313/french/author/mark-breslin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/author/mark-breslin/</guid>
+      <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita. Caut repudiandae a assumenda tempora!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Page Not Found</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Page Not Found</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plans &amp; Pricing</title>
+      <link>//localhost:1313/english/pages/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soophie Moore</title>
+      <link>//localhost:1313/english/author/soophie-moore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/author/soophie-moore/</guid>
+      <description>&lt;p&gt;Hic dolor cumque quod quas pariatur modi rerum qui consequatur, iusto inventore dolorem ab ducimus, porro enim fugit incidunt expedita&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Soophie Moore</title>
+      <link>//localhost:1313/french/author/soophie-moore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/french/author/soophie-moore/</guid>
+      <description>&lt;p&gt;Hic dolor cumque quod quas pariatur modi rerum qui consequatur, iusto inventore dolorem ab ducimus, porro enim fugit incidunt expedita&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

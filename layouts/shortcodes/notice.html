@@ -1,0 +1,8 @@
+<!-- Notice Shortcode -->
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default "" }}
+
+<div class="notice notice-{{ $type }}">
+  {{ if $title }}<strong>{{ $title }}</strong>{{ end }}
+  {{ .Inner | markdownify }}
+</div>

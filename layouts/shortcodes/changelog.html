@@ -1,0 +1,11 @@
+<!-- Changelog Shortcode -->
+{{ $version := .Get "version" | default "v1.0" }}
+{{ $date := .Get "date" | default "Today" }}
+{{ $title := .Get "title" | default "Changelog" }}
+
+<div class="changelog-item">
+  <h4>{{ $version }} - {{ $date }}</h4>
+  <div class="changelog-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

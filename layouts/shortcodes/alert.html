@@ -1,0 +1,7 @@
+<!-- Alert Shortcode -->
+{{ $type := .Get "type" | default "info" }}
+{{ $class := printf "alert alert-%s" $type }}
+
+<div class="{{ $class }}" role="alert">
+  {{ .Inner | markdownify }}
+</div>

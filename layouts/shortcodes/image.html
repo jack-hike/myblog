@@ -1,0 +1,12 @@
+<!-- Image Shortcode -->
+{{ $image := .Get "src" }}
+{{ $alt := .Get "alt" | default "Image" }}
+{{ $class := .Get "class" | default "img-fluid" }}
+
+{{ if $image }}
+  <img 
+    src="{{ $image | relURL }}" 
+    alt="{{ $alt }}" 
+    class="{{ $class }}"
+    loading="lazy">
+{{ end }}
