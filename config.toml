@@ -1,0 +1,7 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Test Nadapay"
+theme = "interface"
+
+[params]
+  description = "My HUGO Blog"

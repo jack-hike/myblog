@@ -1,0 +1,10 @@
+baseURL = 'http://localhost:1313/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "interface"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+  description = "My HUGO Blog"

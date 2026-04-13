@@ -1,0 +1,13 @@
+<!-- Image Partial -->
+{{ $image := .Src }}
+{{ $alt := .Alt | default "Image" }}
+{{ $size := .Size | default "100x100" }}
+{{ $class := .Class | default "" }}
+
+{{ if $image }}
+  <img 
+    src="{{ $image | relURL }}" 
+    alt="{{ $alt }}" 
+    class="img-fluid {{ $class }}"
+    loading="lazy">
+{{ end }}
