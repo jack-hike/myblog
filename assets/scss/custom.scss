@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+    .navbar-expand-xl {
+        .navbar-nav {
+        gap:20px;
+            .dropdown {
+        &:nth-child(3) {
+            .dropdown-menu{
+                width: 270px;
+            }
+        }
+    }
+    }
+    }
+}
