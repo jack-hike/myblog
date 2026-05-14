@@ -1,0 +1,6 @@
+<!-- Collapse Shortcode -->
+{{ $title := .Get "title" | default "Click to expand" }}
+<div class="collapse">
+  <button class="collapse-btn">{{ $title }}</button>
+  <div class="collapse-content">{{ .Inner | markdownify }}</div>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: "Card Payments"
+title: "About Us"
 draft: false
 description: "this is a test description"
 layout: "about"

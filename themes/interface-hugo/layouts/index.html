@@ -12,11 +12,11 @@
               <h1 class="section-title gradient-title text-center">
                 {{ .title | markdownify }}
               </h1>
-              <p>
+              <!-- <p>
                 Briefly explain the purpose of the presentation: to explore the
                 incredible benefits and potential of collaboration in achieving
                 success.
-              </p>
+              </p> -->
               {{ range $i, $e := .buttons }}
                 <a
                   class="btn mx-2 my-1 {{ if eq $i 0 }}
@@ -87,7 +87,7 @@
               <div class="reviews border-top border-bottom py-4">
                 <div class="row gy-5">
                   {{ range .lists }}
-                    <div class="col-lg-3 col-6 text-center block">
+                    <div class="col-lg-6 col-12 text-center block">
                       <p class="text-dark fw-bold">
                         {{ .title | markdownify }}
                       </p>

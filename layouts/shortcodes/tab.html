@@ -1,0 +1,6 @@
+<!-- Tab Shortcode -->
+{{ $name := .Get "name" | default "Tab" }}
+
+<div class="tab-pane" data-tab="{{ $name }}">
+  {{ .Inner | markdownify }}
+</div>

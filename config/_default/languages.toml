@@ -12,3 +12,10 @@ languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
+
+################ Australia ##################
+[au]
+languageName = "Australia"
+languageCode = "au"
+contentDir = "content/australia"
+weight = 3

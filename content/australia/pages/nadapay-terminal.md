@@ -1,5 +1,5 @@
 ---
-title: "Card Payments"
+title: "NadaPay Terminal"
 draft: false
 description: "this is a test description"
 layout: "about"
