@@ -1,0 +1,8 @@
+{
+  "name": "Test Nadapay",
+  "short_name": "Nadapay",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#007bff",
+  "background_color": "#ffffff"
+}
