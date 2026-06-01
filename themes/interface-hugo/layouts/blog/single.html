@@ -37,7 +37,7 @@
               {{ partial "image" (dict "Src" .Params.image "Alt" .Params.Title "Resize" "false" "Class" "rounded-3 shadow-md w-100 card-image") }}
 
               {{ $PublishDate := .PublishDate.Format "02 Jan, 2006" }}
-              {{ with site.GetPage (string .Params.Author | urlize | lower) }}
+              {{ with .Site.GetPage (printf "/author/%s" (.Params.Author | urlize | lower)) }}
                 <div
                   class="d-flex justify-content-between align-items-center mt-4">
                   <div class="card-author">
@@ -116,7 +116,7 @@
             </div>
           </div>
 
-          {{ with site.GetPage (string .Params.Author | urlize | lower) }}
+          {{ with .Site.GetPage (printf "/author/%s" (.Params.Author | urlize | lower)) }}
             <div class="col-lg-10">
               <div class="author-card shadow-md mt-5 bg-white p-4 rounded-4">
                 <a

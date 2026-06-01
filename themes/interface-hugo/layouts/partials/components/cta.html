@@ -1,4 +1,4 @@
-{{ with (site.GetPage "cta").Params.cta }}
+{{ with (.Site.GetPage "/pages/cta").Params.cta }}
   {{ if .enable }}
     <section class="cta">
       <div class="container">

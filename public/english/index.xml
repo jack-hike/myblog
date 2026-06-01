@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>NadaPay</title>
     <link>//localhost:1313/english/</link>
-    <description>Recent content on </description>
+    <description>Recent content on NadaPay</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Oct 2021 16:49:27 +0600</lastBuildDate>
     <atom:link href="//localhost:1313/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elements</title>
+      <link>//localhost:1313/english/pages/elements/</link>
+      <pubDate>Wed, 27 Oct 2021 16:49:27 +0600</pubDate>
+      <guid>//localhost:1313/english/pages/elements/</guid>
+      <description>&lt;div class=&#34;toc&#34;&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#collapse&#34;&gt;Collapse&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#inline-html&#34;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
       <link></link>
@@ -30,11 +37,18 @@
       <description></description>
     </item>
     <item>
+      <title>Card Payments</title>
+      <link>//localhost:1313/english/pages/card-payments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/card-payments/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Changelog</title>
       <link>//localhost:1313/english/pages/changelog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/english/pages/changelog/</guid>
-      <description>&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Process&lt;/a&gt; transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;p&gt;Send emails and updates about Conclude. Perform any other function that we believe.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our &lt;a href=&#34;#&#34;&gt;site&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xD;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xD;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xD;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;Process transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails about our site&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about &lt;a href=&#34;#&#34;&gt;conclude&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;changelog-item&#34;&gt;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xA;    &lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&#xA;&#xA;&#xA;&#xA; &#xA;&#xA;&#xA;&gt;Process&lt;/a&gt; transactions.&lt;/li&gt;&#xA;&lt;li&gt;Send emails and updates about Conclude&lt;/li&gt;&#xA;&lt;li&gt;Perform any other function that we believe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;changelog-item&#34;&gt;&#xA;  &lt;h4&gt;v1.0 - Today&lt;/h4&gt;&#xA;  &lt;div class=&#34;changelog-content&#34;&gt;&#xA;    &lt;p&gt;Send emails and updates about Conclude. Perform any other function that we believe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>contact</title>
@@ -44,10 +58,31 @@
       <description></description>
     </item>
     <item>
-      <title>Have a question?</title>
-      <link></link>
+      <title>Contactless Payments</title>
+      <link>//localhost:1313/english/pages/contactless-payments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
+      <guid>//localhost:1313/english/pages/contactless-payments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Have a question?</title>
+      <link>//localhost:1313/english/pages/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/faq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hospitality Pos</title>
+      <link>//localhost:1313/english/pages/hospitality-pos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/hospitality-pos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrated Eftpos</title>
+      <link>//localhost:1313/english/pages/integrated-eftpos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/integrated-eftpos/</guid>
       <description></description>
     </item>
     <item>
@@ -72,10 +107,52 @@
       <description>&lt;p&gt;Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita. Caut repudiandae a assumenda tempora!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Mobile Payments</title>
+      <link>//localhost:1313/english/pages/mobile-payments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/mobile-payments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NadaPay App</title>
+      <link>//localhost:1313/english/pages/nadapay-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/nadapay-app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NadaPay POS Lite</title>
+      <link>//localhost:1313/english/pages/pos-lite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/pos-lite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NadaPay Terminal</title>
+      <link>//localhost:1313/english/pages/nadapay-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/nadapay-terminal/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Page Not Found</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pay at Table</title>
+      <link>//localhost:1313/english/pages/pay-at-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/pay-at-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Payment Links</title>
+      <link>//localhost:1313/english/pages/payment-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/payment-links/</guid>
       <description></description>
     </item>
     <item>
@@ -86,11 +163,39 @@
       <description></description>
     </item>
     <item>
+      <title>POS System</title>
+      <link>//localhost:1313/english/pages/pos-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/pos-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retail Pos</title>
+      <link>//localhost:1313/english/pages/retail-pos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/retail-pos/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Soophie Moore</title>
       <link>//localhost:1313/english/author/soophie-moore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/english/author/soophie-moore/</guid>
       <description>&lt;p&gt;Hic dolor cumque quod quas pariatur modi rerum qui consequatur, iusto inventore dolorem ab ducimus, porro enim fugit incidunt expedita&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tap to Pay</title>
+      <link>//localhost:1313/english/pages/tap-to-pay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/tap-to-pay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtual Terminal</title>
+      <link>//localhost:1313/english/pages/virtual-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/pages/virtual-terminal/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

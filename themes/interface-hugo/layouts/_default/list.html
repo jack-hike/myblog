@@ -58,7 +58,7 @@
                     </h2>
                     <p>{{ .Plain | truncate 120 }}</p>
 
-                    {{ with site.GetPage (string .Params.Author | urlize | lower) }}
+                    {{ with .Site.GetPage (printf "/author/%s" (.Params.Author | urlize | lower)) }}
                       <div class="card-author">
                         <div class="d-flex align-items-center">
                           <a

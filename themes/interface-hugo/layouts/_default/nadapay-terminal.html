@@ -19,7 +19,7 @@
         </div>
         <div class="row">
           {{ range $i, $e := .images }}
-            <div class="col-lg-3 col-6">
+            <div class="col-lg-12 col-12">
               <div class="{{ if not (modBool $i 2) }}pt-4 mt-2{{ end }}">
                 {{ partial "image" (dict "Src" . "Alt" "about image" "Class" "shadow-lg rounded-4 w-100") }}
               </div>
@@ -62,9 +62,10 @@
         <div class="row gy-4 justify-content-center align-items-center">
           {{ range .images }}
             <div class="col-lg-2 col-md-3 col-sm-3 col-4 text-center">
-              {{ partial "image" (dict "Src" . "Alt" "about image") }}
+              {{ partial "image" (dict "Src" . "Alt" "about image" ) }}
             </div>
           {{ end }}
+           
         </div>
       </div>
     </section>
@@ -72,18 +73,38 @@
   <!-- end brands -->
 
   <!-- about_info -->
-  {{ with .Params.about_info }}
+  {{ with .Params.nada_info }}
     {{ if .enable }}
       <section class="about-info has-backdrop">
         <div class="section container">
           <div
             class="row gx-0 gx-lg-5 gy-5 align-items-xl-center justify-content-center">
-            <div class="col-lg-4 text-center">
+            
+            {{ range .EFTPOS_lists }}
+            <div class="col-lg-4">
               <div class="about-info-image rounded-5 d-inline-block">
-                {{ partial "image" (dict "Src" .image "Alt" "about info image" "Resize" false) }}
+                {{ partial "image" (dict "Src" .image  "Alt" "about image" "Class" "shadow-lg rounded-5 w-100") }}
               </div>
+              <p class="fw-bold text-dark mb-1 mt-3">
+                  {{ .subtitle | markdownify }}
+                </p>
+                <div class="content">
+                  {{ .content | markdownify }}
+                </div>
+                {{ range $i, $e := .buttons }}
+                    <a
+                      class="btn mt-2 {{ if eq $i 0 }}
+                        btn-primary
+                      {{ else }}
+                        btn-outline-white
+                      {{ end }}"
+                      href="{{ .link | safeHTML }}">
+                      {{ .label | markdownify }}
+                    </a>
+                  {{ end }}
             </div>
-            <div class="col-lg-7">
+          {{ end }}
+            <div class="col-lg-4">
               <div class="ps-0 ps-xl-4">
                 <p class="section-subtitle text-tertiary">
                   {{ .subtitle | markdownify }}
@@ -92,6 +113,7 @@
                 <div class="content">
                   {{ .content | markdownify }}
                 </div>
+                
               </div>
             </div>
           </div>
@@ -113,7 +135,100 @@
     {{ end }}
   {{ end }}
   <!-- end about_info -->
+<!-- how it works -->
+  {{ with .Params.how_it_works }}
+    <section class="how-it-works has-backdrop has-overlay">
+      <div class="section container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="section-subtitle text-secondary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
 
+        {{ range $i, $e := .feature_lists }}
+          <div
+            class="row g-0 bg-light rounded-5 align-items-end {{ if ne $i 0 }}
+              mt-5
+            {{ end }}">
+            <div
+              class="col-lg-6 {{ if modBool $i 2 }}
+                order-0 order-lg-1 image-right
+              {{ end }}">
+              <div class="image-block">
+                {{ partial "image" (dict "Src" .image "Alt" "how it works image" "Resize" false "Class" "w-100") }}
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-0">
+              <div class="content-block">
+                <h3>{{ .title | markdownify }}</h3>
+                <div class="mb-4">{{ .content | markdownify }}</div>
+
+                <ul class="list-item">
+{{ range .list }}
+                  
+                    <li>{{ .detail }}</li>
+                  
+                {{end}}
+                </ul>
+                
+                {{ range $i, $e := .buttons }}
+                  <a
+                    class="btn me-2 {{ if eq $i 0 }}
+                      btn-primary
+                    {{ else }}
+                      btn-outline-primary
+                    {{ end }}"
+                    href="{{ .link }}">
+                    {{ .label | markdownify }}
+                  </a>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+
+      <svg
+        class="backdrop text-tertiary"
+        width="676"
+        height="1416"
+        viewBox="0 0 676 1416"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.25" filter="url(#filter0_f_32_368)">
+          <path
+            d="M-32.3076 420C126.92 420 256 548.942 256 708C256 867.058 126.92 996 -32.3075 996C-104.879 996 -187.678 969.215 -256.307 925.002C-338.256 872.208 -400 794.564 -400 708C-400 622.894 -255.775 644.779 -175.888 592.056C-106.47 546.242 -106.339 420 -32.3076 420Z"
+            fill="currentColor" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_32_368"
+            x="-820"
+            y="0"
+            width="1496"
+            height="1416"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape" />
+            <feGaussianBlur
+              stdDeviation="210"
+              result="effect1_foregroundBlur_32_368" />
+          </filter>
+        </defs>
+      </svg>
+    </section>
+  {{ end }}
+  <!-- end how it works -->
   <!-- our_values -->
   {{ with .Params.our_values }}
     {{ if .enable }}
@@ -133,7 +248,7 @@
                     <div class="swiper-slide">
                       <div class="block bg-white rounded-4 p-4">
                         <div class="icon mb-3">
-                          <i class="text-primary {{ .icon }}"></i>
+                          <i class="text-primary {{ with .icon }}{{ . }}{{ end }}"></i>
                         </div>
                         <p class="text-capitalize fw-bold text-dark mb-2">
                           {{ .title | markdownify }}
@@ -192,7 +307,7 @@
                       type="button"
                       role="tab"
                       aria-selected="false">
-                      <i class="{{ .icon }} me-2"></i>
+                      <i class="{{ with .icon }}{{ . }}{{ end }} me-2"></i>
                       {{ .title | markdownify }}
                     </button>
                   </li>
@@ -268,5 +383,31 @@
   <!-- end testimonials -->
 
   {{ partial "components/cta" }}
+  
+    <!-- FAQ Shortcode -->
+    
+
+{{ with .Params.faq }}
+<section class="faq-section">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <p class="subtitle">{{ .subtitle }}</p>
+
+    <div class="faq">
+      {{ range $i, $item := .list }}
+        <details class="faq__item" {{ if eq $i 0 }}open{{ end }}>
+          <summary class="faq__question">
+            <span>{{ $item.title }}</span>
+            <span class="faq__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq__answer">
+            {{ $item.content | markdownify }}
+          </div>
+        </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 {{ end }}

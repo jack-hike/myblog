@@ -1,0 +1,595 @@
+{{ define "main" }}
+  {{ partial "components/page-header" . }}
+<!-- payment links -->
+  {{ with .Params.payment_links }}
+    <section class="section has-backdrop pt-0">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-12 text-center">
+             <h2 class="section-title text-center ">
+              {{ .title | markdownify }}
+            </h2>
+            <p class="section-subtitle text-secondary bold">
+              {{ .subtitle | markdownify }}
+            </p>
+           
+          </div>
+        </div>
+        <div class="row">
+          {{ range $i, $e := .images }}
+            <div class="col-lg-3 col-6">
+              <div class="{{ if not (modBool $i 2) }}pt-4 mt-2{{ end }}">
+                {{ partial "image" (dict "Src" . "Alt" "about image" "Class" "shadow-lg rounded-4 w-100") }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <svg
+        class="backdrop text-tertiary"
+        style="top:0;right:0"
+        width="490"
+        height="670"
+        viewBox="0 0 490 670"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          opacity="0.25"
+          d="M427.667 1.51615e-05C612.866 7.06621e-06 763 149.985 763 335C763 520.015 612.866 670 427.667 670C343.258 670 246.953 638.844 167.13 587.416C71.8151 526.006 -1.0242e-05 435.691 -1.46433e-05 335C-1.89705e-05 236.006 167.749 261.462 260.667 200.134C341.407 146.844 341.56 1.89254e-05 427.667 1.51615e-05Z"
+          fill="currentColor"></path>
+      </svg>
+    </section>
+  {{ end }}
+  <!-- end about_us -->
+ <!-- our_values -->
+  {{ with .Params.our_values }}
+    {{ if .enable }}
+      <section class="section our-values bg-white overflow-hidden">
+        <div class="container">
+          <div class="row gx-4 gx-lg-5 flex-nowrap mb-3 align-items-center">
+            
+            <div class="col-lg-12">
+              <div class="swiper our_values_swiper">
+                <div class="swiper-wrapper">
+                  {{ range .value_lists }}
+                    <div class="swiper-slide">
+                      <div class="block bg-white rounded-4 p-4">
+                        <div class="icon mb-3">
+                          <i class="text-primary {{ with .icon }}{{ . }}{{ end }}"></i>
+                        </div>
+                        <p class="text-capitalize fw-bold text-dark mb-2">
+                          {{ .title | markdownify }}
+                        </p>
+                        <p class="mb-0 small">{{ .content | markdownify }}</p>
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+  <!-- end our_values -->
+
+  <!-- team -->
+{{ with .Params.team }}
+  {{ if .enable }}
+    <section class="section pb-4">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-10 text-center">
+            <p class="section-subtitle text-quaternary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-xl-3 col-lg-4">
+            <ul class="nav nav-pills team-filter" id="teamTab" role="tablist">
+              {{ range $i, $item := .team_lists }}
+                <li class="nav-item w-100" role="presentation">
+                  <button
+                    class="nav-link text-start {{ if eq $i 0 }}active{{ end }}"
+                    data-bs-toggle="tab"
+                    data-bs-target="#team-{{ $item.title | urlize | sha1 }}-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">
+                    <i class="{{ with $item.icon }}{{ . }}{{ end }} me-2"></i>
+                    {{ $item.title | markdownify }}
+                  </button>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="col-xl-9 col-lg-8">
+            <!-- Tab panes -->
+            <div class="tab-content p-0 border-0">
+              {{ range $i, $item := .team_lists }}
+                <div
+                  class="tab-pane fade {{ if eq $i 0 }}show active{{ end }}"
+                  id="team-{{ $item.title | urlize | sha1 }}-tab"
+                  role="tabpanel"
+                  aria-labelledby="{{ $item.title | urlize | sha1 }}-tab">
+                  <div class="row">
+                    {{ range $item.team_members }}
+                      <div class="col-xl-12 team-item">
+                        <div class="block bg-white p-4 rounded-4">
+                          <div class="text-center">
+                            {{ partial "image" (dict "Src" .image "Alt" "about image" "Class" "mt-2 mb-4") }}
+                          </div>
+                          <p class="fw-bold text-dark mb-1">
+                            {{ .name | markdownify }}
+                          </p>
+                          <p class="small mb-0">
+                            {{ .designation | markdownify }}
+                          </p>
+                        </div>
+                      </div>
+                    {{ end }}
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
+<!-- end team -->
+
+
+  <!-- terminal info -->
+  {{ with .Params.terminal_info }}
+    <section class="section has-backdrop pt-0">
+     
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-10 text-center">
+            <p class="section-subtitle text-secondary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          {{ range $i, $e := .images }}
+            <div class="col-lg-12 col-12">
+              <div class="{{ if not (modBool $i 2) }}pt-4 mt-2{{ end }}">
+                {{ partial "image" (dict "Src" . "Alt" "about image" "Class" "shadow-lg rounded-4 w-100") }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <svg
+        class="backdrop text-tertiary"
+        style="top:0;right:0"
+        width="490"
+        height="670"
+        viewBox="0 0 490 670"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          opacity="0.25"
+          d="M427.667 1.51615e-05C612.866 7.06621e-06 763 149.985 763 335C763 520.015 612.866 670 427.667 670C343.258 670 246.953 638.844 167.13 587.416C71.8151 526.006 -1.0242e-05 435.691 -1.46433e-05 335C-1.89705e-05 236.006 167.749 261.462 260.667 200.134C341.407 146.844 341.56 1.89254e-05 427.667 1.51615e-05Z"
+          fill="currentColor"></path>
+      </svg>
+    </section>
+  {{ end }}
+  <!-- end terminal_info -->
+
+  <!-- brands -->
+  {{ with .Params.terminal_brands }}
+    <section class="section pt-0">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-10 text-center">
+            <p class="section-subtitle text-secondary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        <div class="row gy-4 justify-content-center align-items-center">
+          {{ range .images }}
+            <div class="col-lg-2 col-md-3 col-sm-3 col-4 text-center">
+              {{ partial "image" (dict "Src" . "Alt" "about image" ) }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- end brands -->
+
+  <!-- about_info -->
+  {{ with .Params.nada_info }}
+    {{ if .enable }}
+      <section class="about-info has-backdrop">
+        <div class="section container">
+          <div
+            class="row gx-0 gx-lg-5 gy-5 align-items-xl-center justify-content-center">
+             <div class="col-lg-12 text-center">
+              <div class="ps-0 ps-xl-12">
+                <p class="section-subtitle text-tertiary">
+                  {{ .subtitle | markdownify }}
+                </p>
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <div class="content">
+                  {{ .content | markdownify }}
+                </div>
+              </div>
+            </div>
+            {{ range .EFTPOS_lists }}
+            <div class="col-lg-4">
+              <div class="about-info-image rounded-5 d-inline-block">
+                {{ partial "image" (dict "Src" .image  "Alt" "about image" "Class" "shadow-lg rounded-5 w-100") }}
+              </div>
+              <p class="fw-bold text-dark mb-1 mt-3">
+                  {{ .subtitle | markdownify }}
+                </p>
+                <div class="content">
+                  {{ .content | markdownify }}
+                </div>
+                {{ range $i, $e := .buttons }}
+                    <a
+                      class="btn mt-2 {{ if eq $i 0 }}
+                        btn-primary
+                      {{ else }}
+                        btn-outline-white
+                      {{ end }}"
+                      href="{{ .link | safeHTML }}">
+                      {{ .label | markdownify }}
+                    </a>
+                  {{ end }}
+            </div>
+          {{ end }}
+           
+          </div>
+        </div>
+        <svg
+          class="backdrop text-primary"
+          width="552"
+          height="524"
+          viewBox="0 0 552 524"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            opacity="0.25"
+            d="M173.596 -232C382.583 -232 552 -62.7637 552 146C552 354.764 382.583 524 173.596 524C78.3462 524 -30.328 488.845 -120.404 430.815C-227.961 361.523 -309 259.615 -309 146C-309 34.2989 -119.705 63.0226 -14.8532 -6.17695C76.2577 -66.3078 76.4301 -232 173.596 -232Z"
+            fill="currentColor" />
+        </svg>
+      </section>
+    {{ end }}
+  {{ end }}
+  <!-- end about_info -->
+<!-- how it works -->
+  {{ with .Params.how_it_works }}
+    <section class="how-it-works has-backdrop has-overlay">
+      <div class="section container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="section-subtitle text-secondary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        {{ range $i, $e := .feature_lists }}
+          <div
+            class="row g-0 bg-light rounded-5 align-items-end {{ if ne $i 0 }}
+              mt-5
+            {{ end }}">
+            <div
+              class="col-lg-6 {{ if modBool $i 2 }}
+                order-0 order-lg-1 image-right
+              {{ end }}">
+              <div class="image-block">
+                {{ partial "image" (dict "Src" .image "Alt" "how it works image" "Resize" false "Class" "w-100") }}
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-0">
+              <div class="content-block">
+                <h3>{{ .title | markdownify }}</h3>
+                <div class="mb-4">{{ .content | markdownify }}</div>
+
+                <ul class="list-item">
+{{ range .list }}
+                  
+                    <li>{{ .detail }}</li>
+                  
+                {{end}}
+                </ul>
+                {{ range $i, $e := .buttons }}
+                  <a
+                    class="btn me-2 {{ if eq $i 0 }}
+                      btn-primary
+                    {{ else }}
+                      btn-outline-primary
+                    {{ end }}"
+                    href="{{ .link }}">
+                    {{ .label | markdownify }}
+                  </a>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <svg
+        class="backdrop text-tertiary"
+        width="676"
+        height="1416"
+        viewBox="0 0 676 1416"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.25" filter="url(#filter0_f_32_368)">
+          <path
+            d="M-32.3076 420C126.92 420 256 548.942 256 708C256 867.058 126.92 996 -32.3075 996C-104.879 996 -187.678 969.215 -256.307 925.002C-338.256 872.208 -400 794.564 -400 708C-400 622.894 -255.775 644.779 -175.888 592.056C-106.47 546.242 -106.339 420 -32.3076 420Z"
+            fill="currentColor" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_32_368"
+            x="-820"
+            y="0"
+            width="1496"
+            height="1416"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape" />
+            <feGaussianBlur
+              stdDeviation="210"
+              result="effect1_foregroundBlur_32_368" />
+          </filter>
+        </defs>
+      </svg>
+    </section>
+  {{ end }}
+  <!-- end how it works -->
+ 
+ {{ with .Params.pricing }}
+    <section class="pricing section has-backdrop pt-0">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-10 text-center">
+            <p class="section-subtitle text-tertiary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        <div
+          class="row gy-3 gx-3 bg-white rounded-5 pb-3 px-2 shadow-lg m-auto">
+          
+          {{ range .fixed_plans }}
+            <div class="col-lg-3 col-sm-6">
+              <div class="fixed-plan rounded-4 h-100 d-flex flex-column">
+                <h3 class="h6 mb-2 text-capitalize">
+                  {{ .title | markdownify }}
+                </h3>
+                <p class="mb-4 small">{{ .subtitle | markdownify }}</p>
+                <p><span class="h3">{{ .price }}</span>/{{ .price_per }}</p>
+                {{ with .button }}
+                  <a
+                    href="{{ .link | relLangURL }}"
+                    class="btn btn-outline-primary d-block mt-auto"
+                    >{{ .label | markdownify }}</a
+                  >
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <svg
+        class="backdrop text-tertiary"
+        width="490"
+        height="670"
+        viewBox="0 0 490 670"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          opacity="0.25"
+          d="M427.667 1.51615e-05C612.866 7.06621e-06 763 149.985 763 335C763 520.015 612.866 670 427.667 670C343.258 670 246.953 638.844 167.13 587.416C71.8151 526.006 -1.0242e-05 435.691 -1.46433e-05 335C-1.89705e-05 236.006 167.749 261.462 260.667 200.134C341.407 146.844 341.56 1.89254e-05 427.667 1.51615e-05Z"
+          fill="currentColor"></path>
+      </svg>
+    </section>
+  {{ end }}
+
+<!-- brands -->
+  {{ with .Params.brands }}
+    <section class="section pt-0">
+      <div class="container">
+        <div class="row gy-4 justify-content-center align-items-center">
+          {{ range .images }}
+            <div class="col-lg-1 col-xs-12 col-sm-3 col-4 text-center">
+              {{ partial "image" (dict "Src" . "Alt" "about image") }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- end brands -->
+
+
+{{ with .Params.Get_started }}
+    <section class="pricing section has-backdrop pt-0">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-10 text-center">
+            <p class="section-subtitle text-tertiary">
+              {{ .subtitle | markdownify }}
+            </p>
+            <h2 class="section-title text-center">
+              {{ .title | markdownify }}
+            </h2>
+          </div>
+        </div>
+        <div
+          class="row gy-3 gx-3 bg-primary rounded-5 pb-3 px-2 shadow-lg m-auto">
+          <div class="col-lg-3 col-sm-6">
+            {{ with .custom_plan }}
+              <div
+                class="custom-plan bg-primary rounded-4 overflow-hidden h-100 d-flex flex-column">
+                
+                <div class="text-center">
+                            {{ partial "image" (dict "Src" .image "Alt" "about image" "Class" "mt-2 mb-4") }}
+                          </div>
+
+
+                <svg
+                  class="left-top"
+                  width="35"
+                  height="47"
+                  viewBox="0 0 35 47"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M33.2679 11C34.3397 12.8564 34.3397 15.1436 33.2679 17L17.7321 43.909C16.6603 45.7654 14.6795 46.909 12.5359 46.909L-18.5359 46.909C-20.6795 46.909 -22.6602 45.7654 -23.732 43.909L-39.2679 17C-40.3397 15.1436 -40.3397 12.8564 -39.2679 11L-23.732 -15.909C-22.6602 -17.7654 -20.6795 -18.909 -18.5359 -18.909L12.5359 -18.909C14.6795 -18.909 16.6603 -17.7654 17.7321 -15.909L33.2679 11Z"
+                    fill="#1D76F9" />
+                </svg>
+                <svg
+                  class="right-top text-quaternary"
+                  width="52"
+                  height="67"
+                  viewBox="0 0 52 67"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M98.2679 20C99.3397 21.8564 99.3397 24.1436 98.2679 26L76.732 63.3013C75.6602 65.1577 73.6795 66.3013 71.5359 66.3013L28.4641 66.3013C26.3205 66.3013 24.3397 65.1577 23.2679 63.3013L1.73204 26C0.660252 24.1436 0.660252 21.8564 1.73204 20L23.268 -17.3013C24.3397 -19.1577 26.3205 -20.3013 28.4641 -20.3013L71.5359 -20.3013C73.6795 -20.3013 75.6603 -19.1577 76.732 -17.3013L98.2679 20Z"
+                    fill="currentColor" />
+                </svg>
+                <svg
+                  class="left-bottom text-secondary"
+                  width="40"
+                  height="42"
+                  viewBox="0 0 40 42"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M38.2679 32C39.3397 33.8564 39.3397 36.1436 38.2679 38L21.732 66.641C20.6602 68.4974 18.6795 69.641 16.5359 69.641L-16.5359 69.641C-18.6795 69.641 -20.6603 68.4974 -21.7321 66.641L-38.268 38C-39.3397 36.1436 -39.3397 33.8564 -38.268 32L-21.7321 3.35898C-20.6603 1.50257 -18.6795 0.35898 -16.5359 0.358981L16.5359 0.358981C18.6795 0.358982 20.6603 1.50258 21.732 3.35898L38.2679 32Z"
+                    fill="currentColor" />
+                </svg>
+                <svg
+                  class="right-bottom text-tertiary"
+                  width="52"
+                  height="73"
+                  viewBox="0 0 52 73"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M108.113 44C109.9 47.094 109.9 50.906 108.113 54L85.8867 92.4974C84.1004 95.5914 80.7991 97.4974 77.2265 97.4974L32.7735 97.4974C29.2008 97.4974 25.8996 95.5914 24.1133 92.4974L1.88675 54C0.100429 50.906 0.10043 47.094 1.88675 44L24.1133 5.50258C25.8996 2.40857 29.2009 0.502577 32.7735 0.502577L77.2265 0.502578C80.7992 0.502578 84.1004 2.40857 85.8868 5.50258L108.113 44Z"
+                    fill="currentColor" />
+                </svg>
+              </div>
+            {{ end }}
+          </div>
+          {{ range .started_steps }}
+            <div class="col-lg-3 col-sm-6">
+              <div class="custom-plan bg-primary rounded-4 h-100 d-flex flex-column">
+                 <div class="text-left">
+                            {{ partial "image" (dict "Src" .image "Alt" "about image" "Class" "h-10 mt-2 mb-4") }}
+                          </div>
+                <h3 class="h6 mb-2 text-white text-capitalize">
+                  {{ .title | markdownify }}
+                </h3>
+                <p class="mb-4 text-white small">{{ .subtitle | markdownify }}</p>
+                <p><span class="h3 text-white">{{ .price }}</span>{{ .price_per }}</p>
+                
+              </div>
+            </div>
+          {{ end }}
+          <div class="row">
+            <div class="col-12 text-center mt-4">
+              
+{{ range $i, $e := .buttons }}
+                  <a
+                    class="btn me-2 {{ if eq $i 0 }}
+                      btn-primary
+                    {{ else }}
+                      btn-outline-primary
+                    {{ end }}"
+                    href="{{ .link }}">
+                    {{ .label | markdownify }}
+                  </a>
+                {{ end }}
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <svg
+        class="backdrop text-tertiary"
+        width="490"
+        height="670"
+        viewBox="0 0 490 670"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          opacity="0.25"
+          d="M427.667 1.51615e-05C612.866 7.06621e-06 763 149.985 763 335C763 520.015 612.866 670 427.667 670C343.258 670 246.953 638.844 167.13 587.416C71.8151 526.006 -1.0242e-05 435.691 -1.46433e-05 335C-1.89705e-05 236.006 167.749 261.462 260.667 200.134C341.407 146.844 341.56 1.89254e-05 427.667 1.51615e-05Z"
+          fill="currentColor"></path>
+      </svg>
+    </section>
+  {{ end }}
+
+  <!-- how it testimonials -->
+  {{ partial "components/testimonial" . }}
+  <!-- end testimonials -->
+
+  {{ partial "components/cta" }}
+  
+    <!-- FAQ Shortcode -->
+    
+
+{{ with .Params.faq }}
+<section class="faq-section">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <p class="subtitle">{{ .subtitle }}</p>
+
+    <div class="faq">
+      {{ range $i, $item := .list }}
+        <details class="faq__item" {{ if eq $i 0 }}open{{ end }}>
+          <summary class="faq__question">
+            <span>{{ $item.title }}</span>
+            <span class="faq__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq__answer">
+            {{ $item.content | markdownify }}
+          </div>
+        </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

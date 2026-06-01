@@ -1,21 +1,105 @@
 ################ English language ##################
 [en]
-languageName = "En"
+languageName = "Global"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 
 
-################ French language ##################
-[fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-
 ################ Australia ##################
 [au]
 languageName = "Australia"
-languageCode = "au"
+languageCode = "en-au"
 contentDir = "content/australia"
+weight = 2
+
+################ Bahrain ##################
+[bh]
+languageName = "Bahrain"
+languageCode = "en-bh"
+contentDir = "content/bahrain"
 weight = 3
+
+################ Canada ##################
+[en-ca]
+languageName = "Canada"
+languageCode = "en-ca"
+contentDir = "content/canada"
+weight = 4
+
+################ China ##################
+[zh-hans]
+languageName = "China"
+languageCode = "zh-hans"
+contentDir = "content/china"
+weight = 5
+
+################ Hong Kong ##################
+[hk]
+languageName = "Hong Kong"
+languageCode = "hk"
+contentDir = "content/hongkong"
+weight = 6
+
+################ Japan ##################
+[ja]
+languageName = "Japan"
+languageCode = "ja"
+contentDir = "content/japan"
+weight = 7
+
+################ India ##################
+[in]
+languageName = "India"
+languageCode = "in"
+contentDir = "content/india"
+weight = 8
+
+################ Kuwait ##################
+[kw]
+languageName = "Kuwait"
+languageCode = "kw"
+contentDir = "content/Kuwait"
+weight = 9
+
+################ New Zealand ##################
+[nz]
+languageName = "New Zealand"
+languageCode = "nz"
+contentDir = "content/newzealand"
+weight = 10
+
+################ Nigeria ##################
+[ng]
+languageName = "Nigeria"
+languageCode = "ng"
+contentDir = "content/nigeria"
+weight = 11
+
+################ Singapore ##################
+[sg]
+languageName = "Singapore"
+languageCode = "sg"
+contentDir = "content/singapore"
+weight = 12
+
+################ South Africa ##################
+[za]
+languageName = "South Africa"
+languageCode = "za"
+contentDir = "content/southafrica"
+weight = 13
+
+################ United Kingdom ##################
+[gb]
+languageName = "United Kingdom"
+languageCode = "gb"
+contentDir = "content/unitedkingdom"
+weight = 14
+
+################ United States ##################
+[us]
+languageName = "United States"
+languageCode = "us"
+contentDir = "content/unitedstates"
+weight = 15

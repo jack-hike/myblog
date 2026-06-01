@@ -1,3 +1,7 @@
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+
 ######################## default configuration ####################
 baseURL = "/"
 title = "NadaPay"

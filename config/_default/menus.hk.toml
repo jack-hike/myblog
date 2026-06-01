@@ -1,0 +1,250 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Products"
+url = ""      # don't use a slash for home url
+weight = 1
+
+[[main]]
+parent = "Products"
+name = "EFTPOS Terminal"
+url = "nadapay-terminal/"
+weight = 1
+
+[[main]]
+parent = "Products"
+name = "POS Lite"
+url = "pos-lite/"
+weight = 2
+
+[[main]]
+parent = "Products"
+name = "POS System"
+url = "pos-system/"
+weight = 3
+
+[[main]]
+parent = "Products"
+name = "Virtual Terminal"
+url = "virtual-terminal/"
+weight = 4
+
+[[main]]
+parent = "Products"
+name = "Payment Links"
+url = "payment-links/"
+weight = 5
+
+[[main]]
+parent = "Products"
+name = "Integrated EFTPOS"
+url = "integrated-eftpos/"
+weight = 6
+
+[[main]]
+parent = "Products"
+name = "Card Payments"
+url = "card-payments/"
+weight = 7
+
+[[main]]
+parent = "Products"
+name = "Pay at Table"
+url = "pay-at-table/"
+weight = 8
+
+[[main]]
+parent = "Products"
+name = "Contactless Payments"
+url = "contactless-payments/"
+weight = 9
+
+[[main]]
+parent = "Products"
+name = "Tap to Pay"
+url = "tap-to-pay/"
+weight = 10
+
+[[main]]
+parent = "Products"
+name = "NadaPay App"
+url = "nadapay-app/"
+weight = 11
+
+[[main]]
+name = "Business Types"
+url = "about/"
+weight = 2
+
+[[main]]
+parent = "Business Types"
+name = "Retail POS"
+url = "retail-pos/"
+weight = 1
+
+[[main]]
+parent = "Business Types"
+name = "Hospitality POS"
+url = "hospitality-pos/"
+weight = 2
+
+[[main]]
+parent = "Business Types"
+name = "Mobile Payments"
+url = "mobile-payments/"
+weight = 3
+
+[[main]]
+name = "Pricing"
+url = "pricing/"
+weight = 4
+
+[[main]]
+name = "Support"
+url = "blog/"
+weight = 3
+
+[[main]]
+parent = "Support"
+name = "Contact NadaPay Support"
+url = "elements1/"
+weight = 1
+
+[[main]]
+parent = "Support"
+name = "NadaPay Support Centre"
+url = "changelog1/"
+weight = 2
+
+[[main]]
+parent = "Support"
+name = "NadaPay Status"
+url = "blog/post-2/"
+weight = 3
+
+[[main]]
+parent = "Support"
+name = "About NadaPay"
+url = "author/soophie-moore1/"
+weight = 4
+
+[[main]]
+parent = "Support"
+name = "NadaPay Reviews"
+url = "career/people-program-management-leader1/"
+weight = 5
+
+[[main]]
+parent = "Support"
+name = "NadaPay Business Blog"
+url = "career/people-program-management-leader1/"
+weight = 6
+
+[[main]]
+parent = "Support"
+name = "NadaPay Reports"
+url = "career/people-program-management-leader1/"
+weight = 7
+
+[[main]]
+parent = "Support"
+name = "NadaPay Partner Program"
+url = "career/people-program-management-leader1/"
+weight = 8
+
+[[main]]
+parent = "Support"
+name = "Security"
+url = "career/people-program-management-leader1/"
+weight = 9
+
+[[main]]
+parent = "Support"
+name = "Careers"
+url = "career/people-program-management-leader1/"
+weight = 10
+
+[[main]]
+name = "Shop"
+url = "career/"
+weight = 5
+
+[[main]]
+parent = "Shop"
+name = "Visit NadaPay Shop"
+url = "elements1/"
+weight = 1
+
+[[main]]
+parent = "Shop"
+name = "NadaPay Terminal 1"
+url = "changelog1/"
+weight = 2
+
+[[main]]
+parent = "Shop"
+name = "NadaPay Terminal 2"
+url = "blog/post-2/"
+weight = 3
+
+[[main]]
+parent = "Shop"
+name = "NadaPay SIM Card"
+url = "author/soophie-moore1/"
+weight = 4
+
+[[main]]
+parent = "Shop"
+name = "Accessories"
+url = "career/people-program-management-leader1/"
+weight = 5
+
+
+
+
+
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Pricing"
+url = "pricing/"
+weight = 10
+
+[[footer]]
+name = "Blog"
+url = "blog/"
+weight = 20
+
+[[footer]]
+name = "Career"
+url = "career/"
+weight = 30
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 40
+
+[[footer_bottom]]
+name = "Privacy Policy"
+url = "#"
+weight = 1
+
+[[footer_bottom]]
+name = "Terms of Use"
+url = "#"
+weight = 10
+
+[[footer_bottom]]
+name = "Legal"
+url = "#"
+weight = 30
+
+[[footer_bottom]]
+name = "Site Map"
+url = "#"
+weight = 40

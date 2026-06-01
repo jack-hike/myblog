@@ -23,8 +23,8 @@
           <div class="col-lg-7">
             <div class="swiper swiper-testimonials">
               <div class="swiper-wrapper mb-4">
-                {{ with site.GetPage "testimonial" }}
-                  {{ range .Params.reviews }}
+{{ with site.Data.testimonials }}
+  {{ range .reviews }}
                     <div class="swiper-slide px-0 px-lg-4">
                       <div class="block shadow bg-white rounded-4">
                         <div class="mb-4">{{ .content | markdownify }}</div>

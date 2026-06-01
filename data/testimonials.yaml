@@ -1,0 +1,10 @@
+﻿reviews:
+  - name: "Andrew Saimond"
+    designation: "CEO & Founder"
+    content: "Thanks for downloading our product. Its features make work much easier and the support team is fantastic."
+    star: "three"
+
+  - name: "Alex Smith"
+    designation: "Founder & CTO"
+    content: "Great experience overall. Highly recommended for businesses of any size looking to streamline operations."
+    star: "four"
